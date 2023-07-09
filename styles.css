@@ -1,0 +1,125 @@
+/*28EEA7*/
+body {
+    margin: 0;
+    padding: 0;
+  } 
+
+.main{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.main-left{
+    width: 50%;
+    height: 610px;
+    flex-shrink: 0;
+    background: #28EEA7;
+
+}
+
+.main-left img{
+    width: 175px;
+    height: 47px;
+    flex-shrink: 0;
+    position: absolute;
+    top: 80px;
+    left: 68px;
+}
+.main-left-cont{
+   
+    display:flex;
+    flex-direction: column;
+    align-items: flex-end;
+    position: absolute;
+    top: 200px;
+    right:680px;
+    font-family: Arial;
+}
+.main-left-cont h2{
+    display: flex;
+    width: 250px;
+    height: 18px;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    color: white;
+    
+    background: #363738
+}
+
+#buttonTrained{
+    display: inline-flex;
+    padding: 15px 22px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    background: #2F2B35;
+    color: white;
+    font-weight: bolder;
+    text-decoration: none;
+}
+
+
+.main-right{
+    width: 50%;
+    height: 610px;
+    flex-shrink: 0;
+    background: #282828;
+}
+.main-right img{
+    width: 42px;
+    height: 42px;
+    flex-shrink: 0;
+    position: center;
+    
+    
+}
+.main-right-cont{
+   
+    display:flex;
+    flex-direction: column;
+    align-items: flex-start;
+    position: absolute;
+    top: 200px;
+    left:680px;
+    font-family: Arial;
+    color: #FCFCFD;
+}
+.main-right-cont h2{
+    display: flex;
+    width: 250px;
+    height: 18px;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    color: #363738;
+    
+    background: #FCFCFD;
+}
+#buttonHire{
+    display: inline-flex;
+    padding: 15px 22px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    background: #FCFCFD;
+    color: #363738;
+    font-weight: bolder;
+    text-decoration: none;
+}
+
+.burger-icon{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    top: 90px;
+    right: 80px;
+    background: #363738;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
