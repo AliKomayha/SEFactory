@@ -341,7 +341,7 @@ body {
     .fifth-page{
 
         background-color: #363738;
-
+        padding-bottom: 40px;
     }
 
     #tat {
@@ -351,8 +351,6 @@ body {
         color: #FCFCFD;
         margin-left: 15px;
         font-weight: 900;
-
-        margin-top: 70px;
         margin-bottom: 50px;
         margin-left: 70px;
         margin-right: 70px;
@@ -368,6 +366,7 @@ body {
         padding-left: 40px;
         padding-top: 20px;
         letter-spacing: 2px;
+        padding-bottom: 40px;
         margin-bottom: 40px;
         border-radius: 20px;
     }
@@ -405,4 +404,77 @@ body {
         gap: 20px;
         border-radius: 15px;
         margin-bottom: 20px;
+        padding: 18px 18px 18px 18px;
     }
+
+    /************* sixth page ********/
+
+    .sixth-page{
+
+        margin-bottom: 50px;
+
+    }
+
+    .sixth-page h2{
+        padding-top: 70px;
+        padding-bottom: 20px;
+        font-size: 20px;
+        color: #363738;
+        margin-left: 70px;
+        font-weight: 900;
+    }
+
+    .test-container{
+
+        display: flex;
+        flex-direction: row;
+        margin-left: 70px;
+        margin-right: 70px;
+        height: 400px;
+        background-color: #363738;
+        border-radius: 20px;
+        padding-left: 40px;
+        padding-top: 20px;
+        letter-spacing: 2px;
+        
+    }
+    .test-left{
+        width: 65%;
+        color: #FCFCFD;
+        padding-left: 30px;
+    }
+    .test-right{
+        width: 35%;
+        align-items: center;
+        justify-content: center;
+
+    }
+    .test-right img{
+        height: 370px;
+        width: 370px;
+        padding-top: 15px;
+        border-radius: 20px;
+        
+    }
+   #quotes{
+
+    padding-top: 50px;
+    
+   }
+   #iconZ{
+    margin-top: 15px;
+    height: 50px ;
+    width: 50px;
+    border-radius: 50px 50px 50px 50px;
+   }
+
+   .indic{
+    display: flex;
+    flex-direction: row;
+   }
+   .indic-right{
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+   }
+
