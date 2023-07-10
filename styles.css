@@ -124,15 +124,16 @@ body {
     align-items: center;
     justify-content: center;
 }
-/************* 2nd page **************/
+/***************************** 2nd page  ************************************/
 
 .second-page{
     display: flex;
     flex-direction: column;
     padding-left: 70px;
     background-color: #F1F2F3;
+    padding-bottom: 50px;
 }
-#arrow{
+.arrow{
     color:#28EEA7;
     font-weight:900;
 }
@@ -161,23 +162,21 @@ body {
     position: relative;
 }
 
-/************** third page ***************/
+/********************* third page ******************************/
 
 .third-page{
 
     
     margin-left: 70px;
     margin-right: 70px;
+    padding-bottom: 50px;
   
   }
 .third-page h2{
     margin-top: 70px;
     margin-bottom: 50px;
 }
-  #narrow{
-    color:#28EEA7;
-    font-weight:900;
-}
+  
   .container{
   display: flex;
   flex-direction: row;
@@ -241,3 +240,98 @@ body {
     height: 100%;
     border-radius: 15px;
   }
+
+  /****************** fourth page ******************/
+
+  .fourth-page{
+    
+    background-color: #28EEA7;
+    padding-bottom: 50px;
+    }
+   #tit{
+        margin-top: 70px;
+        margin-bottom: 50px;
+        margin-left: 70px;
+        margin-right: 70px;
+        color:#FCFCFD;
+        background-color: #363738;
+        width:200px;
+        height: 40px;
+        text-align: center;
+    }
+
+    .nav{
+        display: flex;
+        flex-direction: row;
+        margin-left: 70px;
+    }
+    .nav-item{
+        
+        width: 100px;
+        height: 50px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-weight: 900;
+    }
+    .FSW{
+        color: #28EEA7;
+        background-color: #282828;
+        border-radius: 15px 15px 0 0 ;
+    }
+
+    .prog-container{
+
+        display: flex;
+        flex-direction: row;
+        margin-left: 70px;
+        margin-right: 70px;
+        height: 400px;
+        background-color: #363738;
+        border-radius: 20px;
+        padding-left: 40px;
+        padding-top: 20px;
+        letter-spacing: 2px;
+        
+    }
+    .prog-left{
+        width: 65%;
+        color: #FCFCFD;
+    }
+    .prog-right{
+        width: 35%;
+        align-items: center;
+        justify-content: center;
+
+    }
+    .prog-right img{
+        height: 370px;
+        width: 370px;
+        padding-top: 15px;
+        border-radius: 20px;
+    
+    }
+
+    #learnMore{
+        display: inline-flex;
+        padding: 15px 22px;
+        justify-content: flex-end;
+        width: 200px;
+        align-items: center;
+        gap: 10px;
+        background: #232323;
+        color: white;
+        font-weight: bolder;
+        text-decoration: none;
+    }
+    #next{
+        display: inline-flex;
+        padding: 15px 22px;
+        justify-content: flex-end;
+        align-items: center;
+        gap: 10px;
+        background: #232323;
+        color: white;
+        font-weight: bolder;
+        
+    }
